@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E26 for Shipping — Cybersecurity Compliance Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; padding:0; font-family:'Inter',sans-serif; background-color:#f7f9fc; color:#333; }
+    header { background:url('hero.jpg') no-repeat center/cover; color:white; text-align:center; padding:4rem 1rem; position:relative; }
+    header::after { content:''; position:absolute; top:0; left:0; right:0; bottom:0; background:rgba(0,63,92,0.6); }
+    header h1, header p, header .cta { position:relative; z-index:1; }
+    header h1 { font-size:2.5rem; margin-bottom:1rem; }
+    header p { font-size:1.2rem; margin-bottom:2rem; }
+    header .cta { display:inline-block; background:#ff7f50; color:white; padding:0.8rem 1.5rem; border-radius:0.5rem; text-decoration:none; font-weight:700; }
+    section { max-width:900px; margin:2rem auto; padding:0 1rem; }
+    h2 { color:#003f5c; margin-top:2rem; }
+    ul, ol { margin-left:1.2rem; }
+    .stages img { max-width:100%; height:auto; margin:1rem 0; }
+    table { width:100%; border-collapse:collapse; margin-top:1rem; }
+    table th, table td { border:1px solid #ddd; padding:0.8rem; text-align:left; }
+    table th { background:#e0eef6; }
+    footer { text-align:center; padding:1.5rem; background:#e0e0e0; color:#555; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to E26 for Shipping</h1>
+    <p>Your approachable guide to cybersecurity compliance for new ship builds.</p>
+    <a href="#compliance-stages" class="cta">Get Started</a>
+  </header>
+
+  <section id="what-is">
+    <h2>What is E26?</h2>
+    <p>E26 is the unified requirement (UR E26) for cyber resilience introduced by IACS and adopted by major classification societies. It ensures that new ships contracted after January 2024 are designed, built, and delivered with robust cybersecurity measures.</p>
+    <p>Read the full official regulation <a href="https://iacs.org.uk/news/iacs-releases-unified-requirements-for-cyber-resilience-e26-e27/" target="_blank">here (IACS UR E26 Cyber Resilience)</a>.</p>
+  </section>
+
+  <section id="why-it-matters">
+    <h2>Why It Matters</h2>
+    <ul>
+      <li>Protects critical OT systems like navigation, propulsion, and cargo management.</li>
+      <li>Ensures compliance with IMO MSC-FAL.1/Circ.3 and IACS UR E26.</li>
+      <li>Reduces risk of cyber incidents, safeguarding crew, environment, and reputation.</li>
+    </ul>
+  </section>
+
+  <section id="compliance-stages">
+    <h2>Stages of Compliance</h2>
+    <div class="stages">
+      <img src="flowchart.png" alt="E26 Compliance Stages Flowchart">
+    </div>
+    <ol>
+      <li><strong>Risk Assessment:</strong> Identify and prioritize cyber threats to OT and IT systems.</li>
+      <li><strong>Design Protection:</strong> Architect system segregation, firewalls, and secure access into ship design.</li>
+      <li><strong>Build & Verification:</strong> Implement controls during construction, conduct vulnerability scans and tests.</li>
+      <li><strong>Delivery & Certification:</strong> Submit evidence and obtain E26 compliance certification from class society.</li>
+    </ol>
+  </section>
+
+  <section id="detailed-requirements">
+    <h2>Detailed Requirements Summary</h2>
+    <table>
+      <thead>
+        <tr><th>Requirement</th><th>Summary</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Threat & Risk Assessment (TRA)</td><td>Identify and assess vulnerabilities in OT/IT systems; prioritize risks based on impact and likelihood.</td></tr>
+        <tr><td>System Segregation</td><td>Isolate critical systems (navigation, propulsion) from non-critical networks using VLANs and firewalls.</td></tr>
+        <tr><td>Secure Remote Access</td><td>Implement MFA, encrypted channels, and strict access controls for remote maintenance.</td></tr>
+        <tr><td>Supplier Cybersecurity Compliance</td><td>Ensure all equipment vendors and subcontractors adhere to cybersecurity specifications and documentation.</td></tr>
+        <tr><td>Logging & Monitoring</td><td>Deploy logging mechanisms and real-time monitoring for anomalous activities on critical systems.</td></tr>
+        <tr><td>Vulnerability Management</td><td>Establish patch management and vulnerability scanning processes throughout ship’s lifecycle.</td></tr>
+        <tr><td>Incident Response Plan</td><td>Create, document, and test a cyber incident response plan for crew and shore teams.</td></tr>
+        <tr><td>Training & Awareness</td><td>Conduct cybersecurity training and drills for key personnel on board and at shore offices.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>How We Help</h2>
+    <p><strong>Cydome</strong> provides end-to-end E26 compliance services, including TRA workshops, architecture reviews, supplier management, testing, and class certification support.</p>
+    <p>📧 <a href="mailto:contact@cydome.com">Request Compliance Assistance</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 E26 for Shipping — Powered by Cydome
+  </footer>
+</body>
+</html>
